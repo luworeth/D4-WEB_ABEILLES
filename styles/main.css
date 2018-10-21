@@ -1,8 +1,90 @@
+*{
+	box-sizing:border-box;
+}
+
 body{
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Fredoka One', cursive;
+text-align: center;
+background-image: url("../images/acceuil.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
 }
 
 h1{
-  font-family: 'Ubuntu', sans-serif;
-  text-align: center;
+	display: flex;
+	font-family: 'Fredoka One', cursive;
+	font-size: 1.1em;
+	text-align: center;
+	align-items: center;
+}
+
+
+section {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+
+.text-content {
+	flex-basis: 400px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-left: 350px;
+}
+
+p {
+
+	font-family: 'Niramit', sans-serif;
+	color : #fff;
+	font-size: 1.2em;
+	text-align: justify-center;
+}
+
+
+.button{
+	margin-top: 10px;
+	margin-left: 500px;
+	font-size: 1em;
+	background-color: 	#FFD700;
+	border: 2px solid #FFD700;
+	border-radius: 4px;
+	font-family: 'Niramit', sans-serif;
+}
+
+
+
+
+.button01{
+	margin-top: 10px;
+	margin-left: 400px;
+	font-size: 0.8em;
+	background-color: yellow;
+	border: 2px solid yellow;
+	border-radius: 4px;
+	font-family: 'Niramit', sans-serif;
+}
+
+.button02{
+	margin-top: 2px;
+	margin-left: 400px;
+	font-size: 0.8em;
+	background-color: yellow;
+	border: 2px solid yellow;
+	border-radius: 3px;
+	font-family: 'Niramit', sans-serif;
+}
+
+
+
+.button03{
+	margin-top: 5px;
+	margin-left: 400px;
+	font-size: 1em;
+	background-color: yellow;
+	border: 2px solid yellow;
+	border-radius: 3px;
+	font-family: 'Niramit', sans-serif;
 }
